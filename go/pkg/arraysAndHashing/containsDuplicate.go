@@ -41,6 +41,8 @@ func Solution3(nums []int) bool {
 		if _, inSet := hashset[num]; inSet {
 			return true
 		}
+
+		hashset[num] = true
 	}
 
 	return false
