@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "arrays_and_hashing",
+]
